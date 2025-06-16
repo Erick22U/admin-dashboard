@@ -1,0 +1,27 @@
+.body-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 4fr;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.sidebar {
+  background-color: blue;
+  grid-area: 1/ 1 / 3 / 1;
+  /* This will place the sidebar in the first column, spanning the first row */
+  /* This will place the sidebar in the first column, spanning the first row */
+}
+
+.content-container {
+  background-color: gray;
+  grid-area: 2 / 2 / 3 / 3;
+  /* This will place the content in the second column, spanning the second row */
+}
+
+.header {
+  background-color: red;
+  grid-area: 1 / 2 / 2 / 3;
+  /* This will place the header in the second column, spanning the first row */
+}
